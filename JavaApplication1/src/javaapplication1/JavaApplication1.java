@@ -19,7 +19,7 @@ public class JavaApplication1 {
     userChoice = scan.nextLine();
     
     if (userChoice.equals("Thomas")) {
-        System.out.println("Your and Thomas are walking around the school. after a while evrthing goes silent \n" +
+        System.out.println("You and Thomas are walking around the school. after a while everything goes silent \n" +
 				"Then Thomas says guess what. You can reply with \"What\"\n" +
 				"or do you just \"stare and walk away\".");
         userChoice = scan.nextLine();
@@ -33,7 +33,7 @@ public class JavaApplication1 {
 		}
     
     else if (userChoice.equals("Punit")) {
-        System.out.println("Your and Punit are sitting in computer science class. after the leason is done\n" +
+        System.out.println("You and Punit are sitting in computer science class. after the leason is done\n" +
 				"Punit asks you a question. Do you \"ignore\"\n" +
 				"him or do you say \"what is your question \"");
 		userChoice = scan.nextLine();
