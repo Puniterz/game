@@ -37,23 +37,23 @@ public class JavaApplication1 {
 				"Punit asks you a question. Do you \"ignore\"\n" +
 				"him or do you say \"what is your question \"");
 		userChoice = scan.nextLine();
-            if (userChoice.equals("ignore")) {
+        if (userChoice.equals("ignore")) {
 			System.out.println("He asks you agin but also taps on your sholder do you \"ignore\" him again or say \"what is your question\"");
 			userChoice = scan.nextLine();
 
-            if(userChoice.equals("ignore")){
+        if(userChoice.equals("ignore")){
                         System.out.println("Well, then I GUESS you'll never know what his question was. Thanks for playing,\n");
                     }
-            if (userChoice.equals("what is your question")){
+        if (userChoice.equals("what is your question")){
                         System.out.println("He says \"guess why\" you say \"why\"");
                 userChoice = scan.nextLine();
-            if (userChoice.equals("why")) {
+        if (userChoice.equals("why")) {
                         System.out.println("CHIKEN PIE HAHAHAH GET PRANKED L BOZO + RATIO!!!!!!!!!! \n" + "Hey atleast you are still friend");
                 }
                 }	
                 }
-        else if (userChoice.equals("what is your question")){
-                         System.out.println("He says \"guess why\" you say \"why\"");
+    else if (userChoice.equals("what is your question")){
+        System.out.println("He says \"guess why\" you say \"why\"");
                 userChoice = scan.nextLine();
             if (userChoice.equals("why")) {
                         System.out.println("CHIKEN PIE HAHAHAH GET PRANKED L BOZO + RATIO!!!!!!!!!! \n" + "Hey atleast you are still friend");
