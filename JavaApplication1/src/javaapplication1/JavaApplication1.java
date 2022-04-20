@@ -27,7 +27,13 @@ public class JavaApplication1 {
         	System.out.println("CHIKEN BUTT HAHAHAH GET PRANKED L BOZO + RATIO!!!!!!!!!! \n" + "Hey atleast you are still friend");
                 }
         else if (userChoice.equals("stare and walk away")){
-                System.out.println("You never talk to Thomas again \n" + "resulting u never becomaing friends" );
+                System.out.println("You later see thomas in you class and he ask's you to guess what you can relpy with \"what\" to get over it or just \"ignore\" him" );
+                userChoice = scan.nextLine();
+                if (userChoice.equals("what")){
+                    System.out.println("CHIKEN BUTT HAHAHAH GET PRANKED L BOZO + RATIO!!!!!!!!!! \n" + "after school you go to gidenc and drop the class");
+                }
+                else if(userChoice.equals("ignore"))
+                    System.out.println("Well, then I GUESS you'll never know what his question was. Thanks for playing.");
 			}
                 
 		}
@@ -42,7 +48,7 @@ public class JavaApplication1 {
 			userChoice = scan.nextLine();
 
         if(userChoice.equals("ignore")){
-                        System.out.println("Well, then I GUESS you'll never know what his question was. Thanks for playing,\n");
+                        System.out.println("Well, then I GUESS you'll never know what his question was. Thanks for playing.");
                     }
         if (userChoice.equals("what is your question")){
                         System.out.println("He says \"guess why\" you say \"why\"");
